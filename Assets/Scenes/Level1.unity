@@ -693,14 +693,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 516951748, guid: 3e058b4eabc4f754c86ff8709013b88d, type: 3}
-      propertyPath: positionYawlFactor
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 516951748, guid: 3e058b4eabc4f754c86ff8709013b88d, type: 3}
-      propertyPath: controlRollFactor
-      value: -20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e058b4eabc4f754c86ff8709013b88d, type: 3}
 --- !u!1001 &8479787058601017601
