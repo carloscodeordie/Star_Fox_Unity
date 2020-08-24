@@ -1,33 +1,41 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 
+    [Header("General")]
     [Tooltip("In meters per second")][SerializeField] float xSpeed = 8f;
     [Tooltip("In meters per second")] [SerializeField] float ySpeed = 8f;
     [Tooltip("In meters")] [SerializeField] float xMaximumMovement = 6f;
     [Tooltip("In meters")] [SerializeField] float yMaximumMovement = 4f;
+
+    [Header("Screen position based")]
     [SerializeField] float positionPitchFactor = -3f;
-    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawlFactor = 3f;
+    [Header("Control throw parameters")]
     [SerializeField] float controlRollFactor = -20f;
+    [SerializeField] float controlPitchFactor = -15f;
 
     float xThrow;
     float yThrow;
+    bool isControlEnabled = true;
 
-    // Start is called before the first frame update
-    void Start()
+// Detect collisions
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        print("Collision");
     }
 
     // Update is called once per frame
     void Update()
     {
-        MoveHorizontal();
-        MoveVertical();
-        ProcessRotation();
+        if (isControlEnabled)
+        {
+            MoveHorizontal();
+            MoveVertical();
+            ProcessRotation();
+        }
     }
 
     private void MoveHorizontal()
@@ -54,5 +62,11 @@ public class Player : MonoBehaviour
         float yawl = transform.localPosition.x * positionYawlFactor;
         float roll = xThrow * controlRollFactor;
         transform.localRotation = Quaternion.Euler(pitch, yawl, roll);
+    }
+
+    // Called by string reference
+    void OnPlayerDeath()
+    {
+        isControlEnabled = false;
     }
 }

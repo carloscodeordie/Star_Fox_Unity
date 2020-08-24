@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7971076647967869034}
   - component: {fileID: 7991069443003954010}
   - component: {fileID: 7980783587874397202}
+  - component: {fileID: 1600770296965894138}
   - component: {fileID: 516951748}
   m_Layer: 0
   m_Name: Player Ship
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1600770296965894138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967795206266390812}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0626006, y: 0.96831894, z: 3.306026}
+  m_Center: {x: -0.00000023841858, y: -0.00000025331974, z: -0.000000059604645}
 --- !u!114 &516951748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +182,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6929134676123536134, guid: ebc130433f96f144eb90fa00ebe8cb79,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebc130433f96f144eb90fa00ebe8cb79, type: 3}
 --- !u!4 &7967085478256130063 stripped
@@ -242,6 +261,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668889219670778359, guid: 6438713df3f3a12438ab75a9147ab607,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6438713df3f3a12438ab75a9147ab607, type: 3}
