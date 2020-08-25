@@ -18,6 +18,7 @@ public class CollisionHandler : MonoBehaviour
         Invoke("ReloadLevel", levelLoadDelay);
     }
 
+    // String named method
     private void ReloadLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
