@@ -1,16 +1,17 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathFx;
     [SerializeField] Transform parent;
+    [SerializeField] int scorePerHit = 120;
+
+    ScoreBoard scoreBoard;
 
     private void Start()
     {
         AddNonTriggerBoxCollider();
+        scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
     private void AddNonTriggerBoxCollider()
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
     {
         StartDeathFx();
         StartDeathSequence();
+        UpdateScore();
     }
 
     private void StartDeathFx()
@@ -34,5 +36,10 @@ public class Enemy : MonoBehaviour
     private void StartDeathSequence()
     {
         Destroy(gameObject);
+    }
+
+    private void UpdateScore()
+    {
+        scoreBoard.ScoreHit(scorePerHit);
     }
 }

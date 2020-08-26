@@ -1,12 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreBoard : MonoBehaviour
 {
-    [SerializeField] int scorePerHit = 120;
-
     int score = 0;
     Text scoreText;
 
@@ -17,9 +13,9 @@ public class ScoreBoard : MonoBehaviour
         UpdateScore();
     }
 
-    public void ScoreHit()
+    public void ScoreHit(int points)
     {
-        score += scorePerHit;
+        score += points;
         UpdateScore();
     }
 

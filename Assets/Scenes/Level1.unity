@@ -187,6 +187,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79e41cf9e4ffcec479bd73a1f13912e7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1001 &75164628
@@ -256,6 +261,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 461f6e7584ac24c4691d2354dff3097e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1 &103380638
@@ -348,7 +358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb553bc8d427bc94ea4f097e1378d57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHit: 120
 --- !u!1 &182520625 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1437263636933162, guid: 8584316ecc4fc3c49a3ba8130275e439,
@@ -375,7 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1001 &216229705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -443,6 +452,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79e41cf9e4ffcec479bd73a1f13912e7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1001 &252225078
@@ -540,7 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1001 &374748380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -608,6 +622,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79e41cf9e4ffcec479bd73a1f13912e7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1001 &392310260
@@ -677,6 +696,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3098c9d665acae4418423eafc6b27aa7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1 &412452241 stripped
@@ -705,7 +729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!4 &436733366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2570783312794360655, guid: e64eac9fe49af4544bf39f83191a9033,
@@ -807,7 +831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &560944305
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,6 +1004,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76754057fe6d6f64aa00ca4273553e93, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!4 &628383100 stripped
@@ -1008,7 +1037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &694708004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1437263636933162, guid: 8584316ecc4fc3c49a3ba8130275e439,
@@ -1035,7 +1064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 5447485353784051337, guid: 192d794ab5e6d584a931cd41cded5efe,
@@ -1098,7 +1127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1001 &921390136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1166,6 +1195,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76754057fe6d6f64aa00ca4273553e93, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1001 &1122084855
@@ -1235,6 +1269,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e452c8f12eadad94b88ef3a0aa794f33, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1 &1180758522
@@ -1538,6 +1577,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79e41cf9e4ffcec479bd73a1f13912e7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!114 &1244727392 stripped
@@ -1578,7 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &1315649656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,7 +1908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &1404164250 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1437263636933162, guid: 8584316ecc4fc3c49a3ba8130275e439,
@@ -1891,7 +1935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1001 &1446413433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1959,6 +2003,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79e41cf9e4ffcec479bd73a1f13912e7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1 &1494230410 stripped
@@ -1987,7 +2036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &1667548946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1001 &1691943956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2173,6 +2222,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e452c8f12eadad94b88ef3a0aa794f33, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1 &1872729199 stripped
@@ -2201,7 +2255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &1883646103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,7 +2315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1 &2019080793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1437263636933162, guid: 8584316ecc4fc3c49a3ba8130275e439,
@@ -2288,7 +2342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFx: {fileID: 7649970546958969508, guid: 784ae4e57380960468d918f94f1789d2, type: 3}
   parent: {fileID: 811970300}
-  scoreBoard: {fileID: 103380642}
+  scorePerHit: 120
 --- !u!1001 &2052953256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2356,6 +2410,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 23373748890833944, guid: 8584316ecc4fc3c49a3ba8130275e439,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e452c8f12eadad94b88ef3a0aa794f33, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584316ecc4fc3c49a3ba8130275e439, type: 3}
 --- !u!1 &2127712323
@@ -2756,5 +2815,10 @@ PrefabInstance:
       propertyPath: m_ShadowCastingMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8479787058266613924, guid: f963ffba7ddb135499ddcb7e0eca9660,
+        type: 3}
+      propertyPath: m_MaterialTemplate
+      value: 
+      objectReference: {fileID: 2100000, guid: 97c4db64c21c8ec44b72d64a37fcc089, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f963ffba7ddb135499ddcb7e0eca9660, type: 3}
