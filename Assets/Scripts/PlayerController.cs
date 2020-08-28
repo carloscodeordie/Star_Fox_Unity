@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [Tooltip("In meters per second")] [SerializeField] float ySpeed = 8f;
     [Tooltip("In meters")] [SerializeField] float xMaximumMovement = 6f;
     [Tooltip("In meters")] [SerializeField] float yMaximumMovement = 4f;
+    [Tooltip("Ship guns")] [SerializeField] GameObject[] guns;
 
     [Header("Screen position based")]
     [SerializeField] float positionPitchFactor = -3f;
@@ -35,6 +36,7 @@ public class PlayerController : MonoBehaviour
             MoveHorizontal();
             MoveVertical();
             ProcessRotation();
+            ProcessFiring();
         }
     }
 
@@ -68,5 +70,25 @@ public class PlayerController : MonoBehaviour
     void OnPlayerDeath()
     {
         isControlEnabled = false;
+    }
+
+    private void ProcessFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            ActivateGuns(true);
+        }
+        else
+        {
+            ActivateGuns(false);
+        }
+    }
+
+    private void ActivateGuns(bool isActivated)
+    {
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(isActivated);
+        }
     }
 }
